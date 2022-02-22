@@ -1,7 +1,7 @@
 /* find3.c - Open file and count the number of '3' characters found 
    @MarquetteU  - F. Frigo (Edited by Matthew Pauly)
    COEN 2610
-   To compile: cc -g find3.c -o find7
+   To compile: cc -g find3.c -o find3
 */
 
 #include <stdio.h>
@@ -9,7 +9,7 @@
 int main(void)
 {
     FILE *fd;
-    const char *filename = {"list.txt"};
+    const char *filename = {"list.txt"}; // For the lambeau picture, this was changed from "list.txt" to "lambeau.jpg"
     int i, file_size;
     int three_count = 0;
     unsigned char value;
