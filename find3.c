@@ -1,5 +1,5 @@
 /* find3.c - Open file and count the number of '3' characters found 
-   @MarquetteU  - F. Frigo
+   @MarquetteU  - F. Frigo (Edited by Matthew Pauly)
    COEN 2610
    To compile: cc -g find3.c -o find7
 */
